@@ -1,0 +1,50 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+#pageLogo{
+    max-width: 200px;
+    margin-left: 40px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.navOptions{
+    display: flex;
+    align-items: center;
+    gap: 100px
+}
+
+.navOptions li{
+    font-size: 25px;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.navOptions li:hover{
+    transform: translateY(-3px);
+}
+
+.navOptions li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navOptions li a:hover{
+    text-decoration: underline #f84434 2px;
+    transform: translateY(-3px);
+}
+
+#contact a{
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-decoration: none; 
+    background-color: #f84434;
+}
+
+#contact a:hover{
+    background-color:#7c221a;
+}

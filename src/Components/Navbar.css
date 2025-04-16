@@ -26,6 +26,7 @@
 
 .navOptions li:hover{
     transform: translateY(-3px);
+    transition: ease-in .1s;
 }
 
 .navOptions li a{
@@ -34,8 +35,8 @@
 }
 
 .navOptions li a:hover{
-    text-decoration: underline #f84434 2px;
     transform: translateY(-3px);
+    color: #7c221a;
 }
 
 #contact a{
@@ -43,6 +44,7 @@
     padding: 10px 30px;
     text-decoration: none; 
     background-color: #f84434;
+    color: #fff;
 }
 
 #contact a:hover{
